@@ -4,6 +4,8 @@ echo Install all AppStore Apps at first!
 read -p "Press any key to continue... " -n1 -s
 echo  '\n'
 
+echo 'export PATH=/opt/homebrew/bin:$PATH' >> ~/.zshrc
+
 echo Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
