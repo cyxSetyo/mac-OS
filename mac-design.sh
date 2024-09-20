@@ -17,10 +17,10 @@ echo 'export PATH=/opt/homebrew/bin:$PATH' >> ~/.zshrc
 source ~/.zshrc
 
 # Apps that require Passwd
-brew  install --appdir="/Applications" adobe-acrobat-reader
+echo 'avo2014' | sudo -S brew  install --appdir="/Applications" adobe-acrobat-reader
 brew  install --appdir="/Applications" zoomus
 brew  install --appdir="/Applications" google-drive-file-stream
-brew  install --appdir="/Applications" adobe-creative-cloud
+echo 'avo2014' | sudo -S brew  install --appdir="/Applications" adobe-creative-cloud
 
 # Core Functionality
 echo Install Core Apps
@@ -37,9 +37,9 @@ brew  install --appdir="/Applications" google-chrome
 brew  install --appdir="/Applications" google-chat
 brew  install --appdir="/Applications" drawio
 
-avo ALL=(ALL) NOPASSWD: /usr/local/bin/brew
+#avo ALL=(ALL) NOPASSWD: /usr/local/bin/brew
 
 # cleanup
-#rm -f -r /Library/Caches/Homebrew/*
+rm -f -r /Library/Caches/Homebrew/*
 
 echo "IT Arena #AvoWebSolutions"
