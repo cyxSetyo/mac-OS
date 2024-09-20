@@ -18,7 +18,7 @@ source ~/.zshrc
 
 # Apps that require Passwd
 echo 'avo2014' | sudo -S brew  install --appdir="/Applications" adobe-acrobat-reader
-brew  install --appdir="/Applications" zoom
+echo 'avo2014' | sudo -S brew  install --appdir="/Applications" zoom
 brew  install --appdir="/Applications" google-drive-file-stream
 echo 'avo2014' | sudo -S brew  install --appdir="/Applications" adobe-creative-cloud
 
