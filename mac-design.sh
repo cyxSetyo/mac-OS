@@ -6,6 +6,7 @@ echo  '\n'
 
 echo Input password administrator
 sudo -v
+while true; do sudo -n true; sleep 60; done 2>/dev/null &
 echo  '\n'
 
 echo Install Homebrew
