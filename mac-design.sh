@@ -37,7 +37,9 @@ brew  install --appdir="/Applications" google-chrome
 brew  install --appdir="/Applications" google-chat
 brew  install --appdir="/Applications" drawio
 
+avo ALL=(ALL) NOPASSWD: /usr/local/bin/brew
+
 # cleanup
-rm -f -r /Library/Caches/Homebrew/*
+#rm -f -r /Library/Caches/Homebrew/*
 
 echo "IT Arena #AvoWebSolutions"
